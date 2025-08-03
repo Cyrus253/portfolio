@@ -45,7 +45,7 @@ const Header = () => {
                     <Image src={assets.right_arrow_white} alt='' className='w-4' />
                 </motion.a>
 
-                <motion.a href="/sample-resume.pdf" download
+                <motion.a href="/Ravishankar.pdf" download
                     initial={{ y: 30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, delay: 1.2 }}
