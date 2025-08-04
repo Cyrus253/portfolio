@@ -114,8 +114,9 @@ export const workData = [
     {
         title: 'Expense Tracker',
         description: 'tracke optimize your expenses',
-        bgImage: '/work-1.png',
-        Link: 'https://connect-at.vercel.app/chat' 
+        bgImage: '/work-3.png',
+        Link: 'https://expense-tracker-dun-ten.vercel.app' 
+        
     },
     {
         title: 'Article Summarizer',
@@ -126,8 +127,8 @@ export const workData = [
     {
         title: 'ConnectAt',
         description: 'Connect with people around you with responsive design',
-        bgImage: '/work-3.png',
-        Link: 'https://expense-tracker-dun-ten.vercel.app' 
+        bgImage: '/work-1.png',
+        Link:  'https://connect-at.vercel.app'
     },
     {
         title: 'screen-recorder',
