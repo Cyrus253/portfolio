@@ -52,6 +52,7 @@ import postman from './postman.svg';
 import git from './git.svg';
 import github from './github.svg';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const assets = {
     user_image,
@@ -136,6 +137,12 @@ export const workData = [
         bgImage: '/work-4.png',
         Link: 'https://github.com/Cyrus253/screen_Recording'
     },
+    {
+        title: 'Web Scraper',
+        description: 'Scrape data from websites with ease',
+        bgImage: '/work-5.png',
+        Link: 'https://github.com/Cyrus253/web_scraper'
+    }
 ]
 
 export const infoList = [

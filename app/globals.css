@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
+/* ; */
+
 @theme {
   --color-lightHover: #fcf4ff;
   --color-darkHover: #2a004a;
-  --color-darkTheme: #11001f;
+  /* --color-darkTheme: #11001f ; */
+  --bg-darkTheme: url('/dark_bg.png');
   
   --font-outfit: "Outfit", sans-serif;
   --font-ovo: "Ovo", serif;
@@ -44,10 +47,6 @@
 .remove{
  background-image: none
 }
-
-/* app.css */
-@import "tailwindcss";
-
  /* Targets elements with the 'dark' class */
 
 @custom-variant dark (&:where(.dark, .dark *));

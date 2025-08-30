@@ -16,7 +16,6 @@ const Header = () => {
 
                 className='flex items-end gap-2 text-xl md:text-2xl mb-3'>
                 Hi! I'm Ravishankar saini
-                <Image src={assets.hand_icon} alt='' className='w-6' />
             </motion.h3>
             <motion.h1
                 initial={{ y: -30, opacity: 0 }}
