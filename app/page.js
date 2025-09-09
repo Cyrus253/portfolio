@@ -7,7 +7,6 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import DogScrollBuddy from "./components/DogScrollBuddy";
-import WelcomeIntro from "./components/WelcomeIntro";
 import { useEffect, useState } from "react";
 
 
@@ -34,7 +33,6 @@ export default function Home() {
 
   return (
     <>
-      <WelcomeIntro />
       <DogScrollBuddy />
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header isDarkMode={isDarkMode} />
