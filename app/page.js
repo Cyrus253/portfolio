@@ -1,12 +1,7 @@
 "use client";
-import About from "./components/About";
 import Header from "./components/Header";
 import InfiniteTechScroll from "./components/InfiniteTechScroll";
-import Navbar from "./components/Navbar";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import DogScrollBuddy from "./components/DogScrollBuddy";
 import { useEffect, useState } from "react";
 
 
@@ -33,14 +28,13 @@ export default function Home() {
 
   return (
     <>
-      <DogScrollBuddy />
-      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      {/* <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} /> */}
       <Header isDarkMode={isDarkMode} />
-      <About isDarkMode={isDarkMode} />
+      {/* <About isDarkMode={isDarkMode} /> */}
       <InfiniteTechScroll isDarkMode={isDarkMode} />
-      <Work isDarkMode={isDarkMode} />
-      <Contact isDarkMode={isDarkMode} />
-      <Footer isDarkMode={isDarkMode} />
+      {/* <Work isDarkMode={isDarkMode} /> */}
+      {/* <Contact isDarkMode={isDarkMode} /> */}
+      {/* <Footer isDarkMode={isDarkMode} /> */}
     </>
   );
 }

@@ -45,7 +45,7 @@ const InfiniteLogoScroll = () => {
           >
             {logos.map((logo, index) => (
               <div key={`${rowIndex}-${index}`} className="flex-shrink-0 px-6">
-                <div className="p-4 rounded-full dark:bg-gray-200 shadow-[0_0_10px_rgba(255,100,100,0.5)]">
+                <div className="p-4 rounded-full dark:bg-gray-200 shadow-[0_0_10px_rgba(246,123,0,0.8)]">
                   <Image
                     src={logo.src}
                     alt={logo.alt}
